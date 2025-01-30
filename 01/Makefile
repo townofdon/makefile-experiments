@@ -15,7 +15,7 @@ b.o: b.c
 	@echo ">> creating b.o"
 	rm -f b.o
 	cat b.c > b.o
-	echo "balls" >> b.o
+	echo "stuff" >> b.o
 
 # % = wildcard
 # $@ = target file
